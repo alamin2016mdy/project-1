@@ -1,19 +1,48 @@
-.wrapper {
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+*{
+    background-color: aliceblue;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
+.logo{
+    font-family: 'Secular One', sans-serif;
+    font-size: larger;
 }
 
-.column>div {
-    text-align: center;
-    font-size: large;
-    color: white;
-    background: royalblue;
-    margin: 2.5px;
-    padding: 50px;
-    border-radius: 3px;
-    flex: 1;
+.container, nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
 }
+
+ul, li{
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+.login{
+    color: rgb(32, 155, 255);
+}
+
+.get-started{
+    background: #1361F5;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}.get-started:hover{
+    background: #fbfdff;
+    color: #1361F5;
+    padding: 5px 9px;
+    border: 2px solid #1361F5;
+    border-radius: 5px;
+    transition-delay: 5ms;
+}
+
