@@ -1,13 +1,19 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
-
-}
-body{
-    background-color: bisque;
+.wrapper {
+    display: flex;
 }
 
-li{
-    background-color: aqua;
-    padding: 5px;
-    margin: 10px;
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column>div {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background: royalblue;
+    margin: 2.5px;
+    padding: 50px;
+    border-radius: 3px;
+    flex: 1;
 }
